@@ -5,20 +5,6 @@ package Problems;
 //ascending order, convert it to a height-balanced binary search tree.
 //A height-balanced binary tree is a binary tree in which the depth 
 //of the two subtrees of every node never differs by more than one
-
-class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode() {}
-     TreeNode(int val) { this.val = val; }
-     TreeNode(int val, TreeNode left, TreeNode right) {
-         this.val = val;
-         this.left = left;
-         this.right = right;
-     }
-  }
- 
 class BinarySearchTree {
     public TreeNode sortedArrayToBST(int[] nums) {
         if(nums.length==0)  return null;
