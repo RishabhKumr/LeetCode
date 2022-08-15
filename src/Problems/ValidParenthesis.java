@@ -1,5 +1,7 @@
 package Problems;
 
+import java.util.Stack;
+
 public class ValidParenthesis {
 	
     public boolean isValid(String s) {
